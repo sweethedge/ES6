@@ -5,15 +5,25 @@
  <!--css 적용-->
   <link rel="stylesheet" href="./styles/index.css">
   <title>JS PWA</title>
+  <!--내부 자바스크립트-->
+  <!--위치1-->
+  <!-- 외부 자바스크립트 -->
+  <script src="./scripts/index.js"></script>
 </head>
 <body>
   <div id="root">
   <header>
     <h1>자바스크립트 연습</h1>
+  <!-- 여기도 가능함 -->
+  <script>
+    //alert("Hello World!");
+    //console.log("Hello World!");
+  </script>
   </header>
   <main id="content">
     <section id="bt">
-     <button class="bt1">버튼1</button>
+     <button class="bt1" onclick="funPrint(1);">버튼1</button>
+     <button class="bt1" onclick="funPrint(2);">버튼2</button>
     </section>
   </main>
 </div>
