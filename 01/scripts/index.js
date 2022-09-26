@@ -6,6 +6,6 @@ console.log("버튼"+1);
 
 // ES6+ : 화살표 함수
 const funPrint = (n) => {
-// console.log(n);
+console.log(n);
 console.log(`버튼${n}`)
 } 

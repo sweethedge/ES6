@@ -14,7 +14,7 @@ function 함수명(매개변수) {
 
 여기까지 옛날 얘기.
 
-"오늘 배운 JS 코드를 통째로 외워라"
+"오늘 배운 JS 코드의 구조를 통째로 외워라"
 
 /* function funPrint() {
 console.log("외부 자바스크립트");
