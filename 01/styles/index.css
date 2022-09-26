@@ -11,9 +11,6 @@ header {
   align-items: center; /* 상하 */
 
 }
-header > h1 {
-  font-family: 'Nanum Pen Script', cursive;
-}
 
 main {
   background-color: #4C6793;
@@ -44,8 +41,6 @@ button {
   border-radius: 8px;
   background-color: #CDF0EA;
   color: black;
-  font-size: 1rem;
-  font-family: 'Dongle', sans-serif;
 }
 
 button:hover, button:active {
