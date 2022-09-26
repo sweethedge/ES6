@@ -1,0 +1,53 @@
+/* 레이아웃 */
+* { margin: 0px;
+  padding: 0px;
+} /*전체는 처음에 asterisk 찍고 중괄호*/
+
+header {
+  background-color: #8BBCCC;
+  height: 30vh;
+  display: flex; /* 일단 이거부터 */
+  justify-content: center; /* 좌우 */
+  align-items: center; /* 상하 */
+
+}
+header > h1 {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+main {
+  background-color: #4C6793;
+  height: 70vh;
+  color: #cde5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: sticky; /* 스크롤에 관계없이 잡히는 태그 */
+}
+
+main > section {
+  display: flex;
+  flex-direction: column; /* 섹션 내 내용물을 중간으로 하고 내림 */
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: inline-block;
+  margin: 1vh; /*높이를 기준으로 1%*/
+  width: 50vw; /*일단 인라인블록 디스플레이를 해야 쓸 수 있다.*/
+  max-width: 200px;
+  height: 20vw;
+  max-height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #CDF0EA;
+  color: black;
+  font-size: 1rem;
+  font-family: 'Dongle', sans-serif;
+}
+
+button:hover, button:active {
+ background-color: #ADDDD0; /*앞은 pc용, 뒤는 모바일용. 마우스를 갖다댔을때의 설정*/
+}
