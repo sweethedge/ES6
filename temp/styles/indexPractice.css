@@ -1,0 +1,43 @@
+* { margin: 0px;
+padding: 0px;
+}
+
+header {
+  background-color: #2C73D2;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #009CE9;
+  height: 70vh;
+  color: #00BEDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:0em;
+  position: sticky;
+}
+
+main > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: inline-block;
+  margin: 1vh;
+  width: 20vw;
+  max-width: 100px;
+  height: 20vw;
+  max-height: 50px;
+  border-radius: 25%;
+  background-color: #00BEDB;
+}
+
+button:hover, button:active {
+  background-color: #00D9B3;
+}
