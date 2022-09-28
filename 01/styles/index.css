@@ -19,6 +19,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   top: 0;
   position: sticky; /* 스크롤에 관계없이 잡히는 태그 */
 }
@@ -28,19 +29,26 @@ main > section {
   flex-direction: column; /* 섹션 내 내용물을 중간으로 하고 내림 */
   justify-content: center;
   align-items: center;
+  margin:1vh;
 }
 
-button {
-  display: inline-block;
-  margin: 1vh; /*높이를 기준으로 1%*/
+/* #msg {
+  display: none;
+} */
+
+button, .divMsg {
+  display: inline-block, flex;
+  margin: 10vh; /*높이를 기준으로 1%*/
   width: 50vw; /*일단 인라인블록 디스플레이를 해야 쓸 수 있다.*/
   max-width: 200px;
   height: 20vw;
   max-height: 50px;
   border: none;
   border-radius: 8px;
-  background-color: #CDF0EA;
+/*   background-color: #CDF0EA; */
   color: black;
+  text-align: center;
+  align-items: center;
 }
 
 button:hover, button:active {
