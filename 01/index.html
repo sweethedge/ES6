@@ -2,39 +2,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
- <!--css 적용-->
   <link rel="stylesheet" href="./styles/index.css">
   <title>JS PWA</title>
-  <!--내부 자바스크립트-->
-  <!--위치1-->
-  <!-- 외부 자바스크립트 -->
   <script src="./scripts/dom.js"></script>
 </head>
 <body>
   <div id="root">
     <header>
     <h1>자바스크립트 연습</h1>
-  <!-- 여기도 가능함 -->
-  <script>
-    //alert("Hello World!");
-    //console.log("Hello World!");
-  </script>
   </header>
     <main id="content">
-      <section id="msg"> 페이스북
-        <p>tttttttt</p>
-      </section>
-      <!-- <div class="divMsg"></div> -->
-      <!-- <div class="divMsg">div class만 찍어도 만들어지는 버튼</div> -->
+      <section id="msg"> <h2>You need to Roll a Dice</h2> </section>
 
       <section id="bt">
-        <button class="bt1" onclick="show3();">확인</button>
+        <button class="bt1" onclick="show();">확인</button>
       </section>
-<!--       <section id="formSection"></section>
-        <input type="text" id="text">
-        <input type="text" id="text">
-        <input type="text" id="text"> -->
-  </main>
+      <p id="asdf">확인을 눌러봐라.</p>
+      <br>
+      <p id="ox">라디오 체크하고 OX를 표시할 p태그 부분.</p>
+<br>
+<form method="post" action="/a.html">
+      <p>숫자: <label for="r1">1</label>
+        <input type="radio" id="r1" name="jusawi" value="1">
+        <label for="r2">2</label>
+        <input type="radio" id="r2" name="jusawi" value="2">
+        <label for="r3">3</label>
+        <input type="radio" id="r3" name="jusawi" value="3">
+        <label for="r4">4</label>
+        <input type="radio" id="r4" name="jusawi" value="4">
+        <label for="r5">5</label>
+        <input type="radio" id="r5" name="jusawi" value="5">
+        <label for="r6">6</label>
+        <input type="radio" id="r6" name="jusawi" value="6">
+        <!-- <input type="button" value="확인"> -->
+      </form>
+        <!--양자택일 같은 거는 name이 같아야 한다-->
+</main>
 </div>
 </body>
 </html>

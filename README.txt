@@ -48,3 +48,14 @@ let bt. "bt는 바뀔 수 있다"
 "니가 짠 코드의 활용도 생각해야 한다"
 
 블록 주석 shift alt a
+
+0928.
+html 태그 내에 id 라는 게 들어있는 줄은 
+document.querySelector("#id").innerHTML = "니가 바꾸고 싶은 단어, 함수, 값"
+으로 바꿀 수 있다.
+
+ex. 
+<section id="msg"> msg 섹션.
+const msgDiv = document.querySelector('#msg').innerHTML = tag
+<p id="total">확인을 눌러봐라.</p>
+document.querySelector("#total").innerHTML = " 주사위값 = " + (i);

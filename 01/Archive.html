@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+  <link rel="stylesheet" href="./styles/Archive.css">
+  <title>JS PWA</title>
+  <script src="./scripts/dom_archive1.js"></script>
+</head>
+<body>
+  <div id="root">
+    <header>
+    <h1>자바스크립트 연습</h1>
+  </header>
+    <main id="content">
+      <section id="msg"> msg 섹션. </section>
+
+      <section id="bt">
+        <button class="bt1" onclick="show4();">확인</button>
+      </section>
+      <p id="asdf">확인을 눌러봐라.</p>
+      <div class="divMsg"></div>
+<br>
+<form method="post" action="/a.js">
+      <p>숫자: <label for="r1">1</label>
+        <input type="radio" id="r1" name="gender" value="1">
+        <label for="r2">2</label>
+        <input type="radio" name="gender" value="2">
+        <label for="r3">3</label>
+        <input type="radio" name="gender" value="3">
+        <label for="r4">4</label>
+        <input type="radio" name="gender" value="4">
+        <label for="r5">5</label>
+        <input type="radio" name="gender" value="5">
+        <label for="r6">6</label>
+        <input type="radio" name="gender" value="6">
+        <input type="submit" value="확인">
+      </form>
+        <!--양자택일 같은 거는 name이 같아야 한다-->
+</main>
+</div>
+</body>
+</html>

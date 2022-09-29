@@ -24,11 +24,6 @@ main {
   position: sticky; /* 스크롤에 관계없이 잡히는 태그 */
 }
 
-#radioid1 {
-display:flex;
-flex-direction:row;
-}
-
 main > section {
   display: flex;
   flex-direction: column; /* 섹션 내 내용물을 중간으로 하고 내림 */
@@ -41,16 +36,16 @@ main > section {
   display: none;
 } */
 
-button, .divMsg {
+button {
   display: inline-block, flex;
-  margin: 60px; /*높이를 기준으로 1%*/
+  margin: 30px; /*높이를 기준으로 1%*/
   width: 35vw; /*일단 인라인블록 디스플레이를 해야 쓸 수 있다.*/
   max-width: 200px;
   height: 10vw;
   max-height: 50px;
   border: none;
   border-radius: 8px;
-  /* background-color: #CDF0EA; */
+/*   background-color: #CDF0EA; */
   color: black;
   text-align: center;
   align-items: center;
